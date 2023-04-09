@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpopenai *.css
+recursive-include erpopenai *.csv
+recursive-include erpopenai *.html
+recursive-include erpopenai *.ico
+recursive-include erpopenai *.js
+recursive-include erpopenai *.json
+recursive-include erpopenai *.md
+recursive-include erpopenai *.png
+recursive-include erpopenai *.py
+recursive-include erpopenai *.svg
+recursive-include erpopenai *.txt
+recursive-exclude erpopenai *.pyc
